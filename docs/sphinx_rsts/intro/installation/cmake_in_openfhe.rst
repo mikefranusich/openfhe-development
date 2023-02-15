@@ -163,11 +163,11 @@ To remove tcmalloc, run
 
 Turn on Intel HEXL
 *********************************************
-If you wish to use the Intel HEXL library, you can add ``-WITH_INTEL_HEXL=ON`` to the cmake command. The complete command is
+If you wish to use the Intel HEXL library, you can add ``-DWITH_INTEL_HEXL=ON`` to the cmake command. The complete command is
 
 ::
 
-    cmake -WITH_INTEL_HEXL=ON ..
+    cmake -DWITH_INTEL_HEXL=ON ..
 
 Please also make sure `make` for OpenFHE is run using `sudo`, i.e., `sudo make`.
 
